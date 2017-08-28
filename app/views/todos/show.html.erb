@@ -6,3 +6,5 @@
 <p>
   Description: <%= @todo.description %>
 </p>
+<%= link_to "Edit This Todo", edit_todo_path(@todo) %>  |
+<%= link_to "Back To Todo Listing", todos_path %>
